@@ -1,5 +1,6 @@
 from typing import Iterator
 
+
 def iter_odds() -> Iterator[int]:
     i = 1
     while True:

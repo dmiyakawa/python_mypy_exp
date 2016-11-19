@@ -5,7 +5,7 @@
 
 import sys
 import re
-from typing import Dict
+from typing import Dict  # noqa: F401
 
 if not sys.argv[1:]:
     raise RuntimeError('Usage: wordfreq FILE')
